@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ServletConfigServlet</servlet-name>
+        <servlet-class>io.skylar.servlet.ServletConfigServlet</servlet-class>
+        <init-param>
+            <param-name>para5</param-name>
+            <param-value>value5</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConfigServlet</servlet-name>
+        <url-pattern>/ServletConfigServlet</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>param6</param-name>
+        <param-value>value6</param-value>
+    </context-param>
+    <context-param>
+        <param-name>param7</param-name>
+        <param-value>value7</param-value>
+    </context-param>
+</web-app>
