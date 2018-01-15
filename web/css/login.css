@@ -2,7 +2,7 @@ body{
 	margin:0px;
 	padding:0px;
 	font-size:12px;
-	background-color:016aa9;
+    background-color: #016aa9;
 	overflow:hidden;
 	text-align:center;
 }
@@ -31,7 +31,7 @@ body{
 	height:16px;
 	background-color:#292929;
 	border:0px;
-	color:6cd0ff;
+    color: #6cd0ff;
 }
 
 #btn{
