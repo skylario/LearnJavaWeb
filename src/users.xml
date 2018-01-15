@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+    <user id="1234" userName="zhang" password="6" email="aa@sina.com" nickName="nickName" birthday="1995-02-21"></user>
+</users>
