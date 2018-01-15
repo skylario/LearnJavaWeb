@@ -36,6 +36,8 @@ public class TokenFormServlet extends HttpServlet {
                 .append("<input name='username' type='text'/>")
                 .append("<input value='提交' type='submit'/>")
                 .append("</form>");
+
+        request.login("aa","aa");
     }
 
 

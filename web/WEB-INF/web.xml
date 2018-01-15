@@ -17,6 +17,7 @@
         <url-pattern>/ServletConfigServlet</url-pattern>
     </servlet-mapping>
 
+    <!--应用域参数配置-->
     <context-param>
         <param-name>param6</param-name>
         <param-value>value6</param-value>
